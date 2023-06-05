@@ -1,10 +1,18 @@
-[workspace]
-members = [
-    "my_math_package",
-    "my_stats_package"
-]
-
 [package]
-name = "my_rust_workspace"
+name = "my_stats_package"
 version = "0.1.0"
 edition = "2021"
+
+[lib]
+name = "my_stats"
+path = "lib_src_stats/lib.rs"
+
+[[bin]]
+name = "bin_exe_machine_learning"
+path = "bin_exe_machine_learning/main.rs"
+
+[[bin]]
+name = "bin_exe_statistics"
+path = "bin_exe_statistics/main.rs"
+
+[dependencies]
