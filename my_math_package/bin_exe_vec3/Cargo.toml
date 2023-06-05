@@ -1,0 +1,11 @@
+[package]
+name = "bin_exe_vec3"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "bin_exe_vec3"
+path = "main.rs"
+
+[dependencies]
+my_math_package = { path = "../../my_math_package" }

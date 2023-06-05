@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "my_math_package",
+    "my_stats_package"
+]
+
+[package]
+name = "my_rust_workspace"
+version = "0.1.0"
+edition = "2021"

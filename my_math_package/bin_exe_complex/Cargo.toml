@@ -1,0 +1,11 @@
+[package]
+name = "bin_exe_complex"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Include any necessary dependencies for your complex binary here
+
+[[bin]]
+name = "complex"
+path = "main.rs"

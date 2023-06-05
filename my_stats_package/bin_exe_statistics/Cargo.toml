@@ -1,0 +1,11 @@
+[package]
+name = "bin_exe_statistics"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "bin_exe_statistics"
+path = "main.rs"
+
+[dependencies]
+my_stats_package = { path = "../../my_stats_package" }
